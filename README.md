@@ -1,1 +1,1 @@
-# rsschool-cv
+https://mickrubashkin.github.io/rsschool-cv/cv
