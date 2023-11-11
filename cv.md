@@ -65,8 +65,9 @@ function rot13(message) {
 
 ### Education
 
-TBD  
-(including completed courses and training)
+[JavaScript.Ninja](https://www.youtube.com/playlist?list=PLvTBThJr861yMBhpKafII3HZLAYujuNWw), Vue.js course  
+[Hexlet.io](https://hexlet.io/programs/frontend), Frontend Developer  
+[CS50](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA), Harvard University's introduction to the intellectual enterprises of computer science and the art of programming
 
 ---
 
