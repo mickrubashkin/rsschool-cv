@@ -43,9 +43,10 @@ console.log(a) // 1
 
 ### Work Experience
 
-TBD  
-(Junior Devs can list educational projects with the skills used and links to the source code)  
-CLI tool to generate
+- Vue Map ([Live demo](https://melodious-boba-c1b546.netlify.app/), [GitHub](https://github.com/mickrubashkin/vue-map)). Online map playground. Built with `Vue 3` & `OpenLayers`.
+- Vue Note app ([Live demo](https://dashing-chimera-bebf95.netlify.app/#/), [GitHub](https://github.com/mickrubashkin/vue-noteapp)). Notetaking app, built with `Vue 3`.
+- Gendiff ([View on GitHub](https://github.com/mickrubashkin/frontend-project-lvl2)). CLI tool to compare `json` or `yaml` files, print diff to the console in different formats.
+- Brain Games ([View on GitHub](https://github.com/mickrubashkin/frontend-project-lvl1)). CLI games collection.
 
 ---
 
