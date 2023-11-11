@@ -16,8 +16,7 @@
 
 ### Summary
 
-TBD  
-Brief Self-Introduction (your goals and priorities, emphasize your strengths, describe your work experience if applicable, or your desire to learn and acquire new skills)
+Mick has a great communication skills, combined with problem-solving and grit mindset. He is an evergreen learner, eager to proficiency in frontend development.
 
 ---
 
