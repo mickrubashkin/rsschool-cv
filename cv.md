@@ -67,6 +67,7 @@ function rot13(message) {
 
 [JavaScript.Ninja](https://www.youtube.com/playlist?list=PLvTBThJr861yMBhpKafII3HZLAYujuNWw), Vue.js course  
 [Hexlet.io](https://hexlet.io/programs/frontend), Frontend Developer  
+[SICP](https://github.com/mickrubashkin/hexlet-sicp-racket), self-paced practice on SICP book  
 [CS50](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA), Harvard University's introduction to the intellectual enterprises of computer science and the art of programming
 
 ---
