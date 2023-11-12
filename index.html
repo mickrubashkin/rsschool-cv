@@ -25,6 +25,10 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="style.css"
     />
@@ -58,8 +62,8 @@
         <aside class="aside">
           <section class="contacts box-alter">
             <h3 class="title">Contacts</h3>
-            <ul class="contacts-list">
-              <li class="contact-item">
+            <ul class="item-list">
+              <li class="item">
                 <b>E-mail</b>
                 <span>
                   <a href="mailto:mikhail.rubashkin@gmail.com"
@@ -67,11 +71,11 @@
                   >
                 </span>
               </li>
-              <li class="contact-item">
+              <li class="item">
                 <b>Discord, telegram</b>
                 <span>@mick_rubashkin</span>
               </li>
-              <li class="contact-item">
+              <li class="item">
                 <b>GitHub</b>
                 <a href="https://github.com/mickrubashkin"
                   >github.com/mickrubashkin</a
@@ -81,36 +85,47 @@
           </section>
 
           <section class="education box">
-            <h2>Education</h2>
-            <ul>
-              <li>
-                <a
-                  href="https://www.youtube.com/playlist?list=PLvTBThJr861yMBhpKafII3HZLAYujuNWw"
-                  target="_blank"
-                  >JavaScript.Ninja</a
-                >, Vue.js course
+            <h3 class="title">Education</h3>
+            <ul class="item-list">
+              <li class="item">
+                <span>
+                  <a
+                    href="https://www.youtube.com/playlist?list=PLvTBThJr861yMBhpKafII3HZLAYujuNWw"
+                    target="_blank"
+                    >JavaScript.Ninja</a
+                  >
+                </span>
+                <span>Vue.js course</span>
               </li>
-              <li>
-                <a
-                  href="https://hexlet.io/programs/frontend"
-                  target="_blank"
-                  >Hexlet.io</a
-                >, Frontend Developer
+              <li class="item">
+                <span>
+                  <a
+                    href="https://hexlet.io/programs/frontend"
+                    target="_blank"
+                    >Hexlet.io</a
+                  >
+                </span>
+                <span>Frontend Developer</span>
               </li>
-              <li>
-                <a
-                  href="https://github.com/mickrubashkin/hexlet-sicp-racket"
-                  target="_blank"
-                  >SICP</a
-                >, self-paced practice on SICP book
+              <li class="item">
+                <span>
+                  <a
+                    href="https://github.com/mickrubashkin/hexlet-sicp-racket"
+                    target="_blank"
+                    >SICP</a
+                  >
+                </span>
+                <span>Self-paced practice on SICP book</span>
               </li>
-              <li>
-                <a
-                  href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA"
-                  target="_blank"
-                  >CS50</a
-                >, Harvard University's introduction to the intellectual
-                enterprises of computer science and the art of programming
+              <li class="item">
+                <span>
+                  <a
+                    href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA"
+                    target="_blank"
+                    >CS50</a
+                  >
+                </span>
+                <span>Harvard University's introduction to the CS </span>
               </li>
             </ul>
           </section>
@@ -127,6 +142,65 @@
         </aside>
 
         <div class="wraper">
+          <section class="work-experience box-alter">
+            <h3 class="title">Experience</h3>
+            <ul class="item-list">
+              <li class="item">
+                <p>
+                  <b>Vue Map</b> (<a
+                    href="https://melodious-boba-c1b546.netlify.app/"
+                    target="_blank"
+                    >Live demo</a
+                  >,
+                  <a
+                    href="https://github.com/mickrubashkin/vue-map"
+                    target="_blank"
+                    >GitHub</a
+                  >)
+                </p>
+                <p>Online map playground, built with Vue 3 & OpenLayers.</p>
+              </li>
+              <li class="item">
+                <p>
+                  <b>Vue Note app</b> (<a
+                    href="https://dashing-chimera-bebf95.netlify.app/#/"
+                    target="_blank"
+                    >Live demo</a
+                  >,
+                  <a
+                    href="https://github.com/mickrubashkin/vue-noteapp"
+                    target="_blank"
+                    >GitHub</a
+                  >)
+                </p>
+                <p>Notetaking app, built with Vue 3.</p>
+              </li>
+              <li class="item">
+                <p>
+                  <b>Gendiff</b> (<a
+                    href="https://github.com/mickrubashkin/frontend-project-lvl2"
+                    target="_blank"
+                    >GitHub</a
+                  >)
+                </p>
+                <p>
+                  CLI tool to compare json or yaml files, print diff to the
+                  console in different formats.
+                </p>
+              </li>
+              <li class="item">
+                <p>
+                  <b>Brain Games</b> (<a
+                    href="https://github.com/mickrubashkin/frontend-project-lvl1"
+                    target="_blank"
+                    >GitHub</a
+                  >)
+                </p>
+                <p>CLI games collection.</p>
+              </li>
+            </ul>
+          </section>
+
           <section class="code-examples">
             <h2>Code Examples</h2>
             <div class="description">
@@ -160,59 +234,6 @@ function rot13(message) {
 }
           </code>
         </pre>
-          </section>
-
-          <section class="work-experience">
-            <h2>Work Experience</h2>
-            <ul>
-              <li>
-                <p>
-                  Vue Map (<a
-                    href="https://melodious-boba-c1b546.netlify.app/"
-                    target="_blank"
-                    >Live demo</a
-                  >,
-                  <a
-                    href="https://github.com/mickrubashkin/vue-map"
-                    target="_blank"
-                    >GitHub</a
-                  >). Online map playground, built with Vue 3 & OpenLayers.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Vue Note app (<a
-                    href="https://dashing-chimera-bebf95.netlify.app/#/"
-                    target="_blank"
-                    >Live demo</a
-                  >,
-                  <a
-                    href="https://github.com/mickrubashkin/vue-noteapp"
-                    target="_blank"
-                    >GitHub</a
-                  >). Notetaking app, built with Vue 3.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Gendiff (<a
-                    href="https://github.com/mickrubashkin/frontend-project-lvl2"
-                    target="_blank"
-                    >GitHub</a
-                  >). CLI tool to compare json or yaml files, print diff to the
-                  console in different formats.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Brain Games (<a
-                    href="https://github.com/mickrubashkin/frontend-project-lvl1"
-                    target="_blank"
-                    >GitHub</a
-                  >). CLI games collection.
-                </p>
-              </li>
-            </ul>
           </section>
 
           <section class="language">
