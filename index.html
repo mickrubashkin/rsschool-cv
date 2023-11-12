@@ -215,7 +215,7 @@
     function rot13(message) {
       return message
         .split('')
-        .map((ch) => {
+        .map(function(ch) {
           if (alpha.includes(ch)) return alpha.at(alpha.indexOf(ch) - 13)
           if (ALPHA.includes(ch)) return ALPHA.at(ALPHA.indexOf(ch) - 13)
           return ch
