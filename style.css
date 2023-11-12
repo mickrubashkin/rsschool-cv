@@ -22,6 +22,12 @@ li {
   margin: 0 auto;
 }
 
+.box {
+  max-width: 220px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
 .title {
   letter-spacing: 1.3px;
   font-size: 22px;
@@ -35,6 +41,8 @@ li {
   border-bottom: 2px solid #333;
 }
 
+/* HEADER */
+
 .header {
   display: flex;
   gap: 30px;
@@ -42,15 +50,11 @@ li {
 }
 
 .avatar {
-  height: 293px;
-  flex-basis: 220px;
   flex-shrink: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f7f3ef;
-  border-top-right-radius: 40px;
-  border-bottom-left-radius: 40px;
 }
 
 .avatar__img {
@@ -60,7 +64,8 @@ li {
 .credentials {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-top: 16px;
 }
 
 .name {
@@ -73,8 +78,30 @@ li {
 .role {
   padding-top: 8px;
   font-weight: 400;
+  line-height: 1;
 }
 
 .summary {
   max-width: 500px;
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+
+.description {
+  padding-top: 8px;
+}
+
+/*  */
+.main {
+  display: flex;
+  gap: 30px;
+  padding: 50px 30px;
+}
+
+.aside {
+  max-width: 220px;
+}
+
+.contacts {
+  background-color: #faeee1;
 }
