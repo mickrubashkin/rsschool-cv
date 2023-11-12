@@ -12,7 +12,8 @@ h2,
 h3,
 p,
 ul,
-li {
+li,
+pre {
   margin: 0;
   padding: 0;
 }
@@ -132,6 +133,13 @@ li {
   flex-shrink: 0;
 }
 
+.main .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
 .contacts {
   background-color: #faeee1;
 }
@@ -140,6 +148,22 @@ li {
   background-color: #faeceb;
 }
 
+.skills {
+  background-color: #f7f3ef;
+}
+
 .work-experience {
   background-color: #f7f3ef;
+}
+
+.code-examples {
+  background-color: #faeceb;
+}
+
+.languages {
+  background-color: #faeee1;
+}
+
+.languages p {
+  padding-top: 16px;
 }

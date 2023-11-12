@@ -131,17 +131,17 @@
           </section>
 
           <section class="skills box-alter">
-            <h2>Skills</h2>
-            <ul>
-              <li>HTML5, CSS3</li>
-              <li>JavaScript</li>
-              <li>React, Vue</li>
-              <li>Node.js</li>
+            <h3 class="title">Skills</h3>
+            <ul class="item-list">
+              <li class="item">HTML5, CSS3</li>
+              <li class="item">JavaScript</li>
+              <li class="item">React, Vue</li>
+              <li class="item">Node.js</li>
             </ul>
           </section>
         </aside>
 
-        <div class="wraper">
+        <div class="wrapper">
           <section class="work-experience box-alter">
             <h3 class="title">Experience</h3>
             <ul class="item-list">
@@ -201,44 +201,37 @@
             </ul>
           </section>
 
-          <section class="code-examples">
-            <h2>Code Examples</h2>
+          <section class="code-examples box">
+            <h3 class="title">Code Examples</h3>
             <div class="description">
               <p>
                 ROT13 is a simple letter substitution cipher that replaces a
                 letter with the letter 13 letters after it in the alphabet.
                 ROT13 is an example of the Caesar cipher.
               </p>
-              <p>
-                Create a function that takes a string and returns the string
-                ciphered with Rot13. If there are numbers or special characters
-                included in the string, they should be returned as they are.
-                Only letters from the latin/english alphabet should be shifted,
-                like in the original Rot13 "implementation".
-              </p>
             </div>
             <pre>
-          <code>
-const alpha = 'abcdefghijklmnopqrstuvwxyz'
-const ALPHA = alpha.toUpperCase()
+              <code>
+    const alpha = 'abcdefghijklmnopqrstuvwxyz'
+    const ALPHA = alpha.toUpperCase()
 
-function rot13(message) {
-  return message
-    .split('')
-    .map((ch) => {
-      if (alpha.includes(ch)) return alpha.at(alpha.indexOf(ch) - 13)
-      if (ALPHA.includes(ch)) return ALPHA.at(ALPHA.indexOf(ch) - 13)
-      return ch
-    })
-    .join('')
-}
-          </code>
-        </pre>
+    function rot13(message) {
+      return message
+        .split('')
+        .map((ch) => {
+          if (alpha.includes(ch)) return alpha.at(alpha.indexOf(ch) - 13)
+          if (ALPHA.includes(ch)) return ALPHA.at(ALPHA.indexOf(ch) - 13)
+          return ch
+        })
+        .join('')
+    }
+              </code>
+           </pre>
           </section>
 
-          <section class="language">
-            <h2>English Language</h2>
-            <p>C1 Advanced</p>
+          <section class="languages box-alter">
+            <h3 class="title">English Language</h3>
+            <p>C1, Advanced</p>
           </section>
         </div>
       </main>
