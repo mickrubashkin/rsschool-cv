@@ -30,64 +30,71 @@
     />
   </head>
   <body>
-    <header>
-      <img
-        src="https://gravatar.com/avatar/446a0b352935de1566ed9a1d40e271f49a84268cfbc0546e53a1d0ccc06edbd6"
-      />
-      <h1>Mick Rubashkin</h1>
-      <h2>Fronted Developer</h2>
-    </header>
-    <hr />
-    <main>
-      <section class="contacts">
-        <h2>Contact Details</h2>
-        <ul>
-          <li>
-            E-mail:
-            <a href="mailto:mikhail.rubashkin@gmail.com"
-              >mikhail.rubashkin@gmail.com</a
-            >
-          </li>
-          <li>Discord, telegram: @mick_rubashkin</li>
-          <li><a href="https://github.com/mickrubashkin">GitHub</a></li>
-        </ul>
-      </section>
-
-      <section class="summary">
-        <h2>Summary</h2>
-        <p>
-          Mick has a great communication skills, combined with problem-solving
-          and grit mindset. He is an evergreen learner, eager to proficiency in
-          frontend development.
-        </p>
-      </section>
-
-      <section class="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML5, CSS3</li>
-          <li>JavaScript</li>
-          <li>React, Vue</li>
-          <li>Node.js</li>
-        </ul>
-      </section>
-      <section class="code-examples">
-        <h2>Code Examples</h2>
-        <div class="description">
-          <p>
-            ROT13 is a simple letter substitution cipher that replaces a letter
-            with the letter 13 letters after it in the alphabet. ROT13 is an
-            example of the Caesar cipher.
-          </p>
-          <p>
-            Create a function that takes a string and returns the string
-            ciphered with Rot13. If there are numbers or special characters
-            included in the string, they should be returned as they are. Only
-            letters from the latin/english alphabet should be shifted, like in
-            the original Rot13 "implementation".
-          </p>
+    <div class="container">
+      <header class="header">
+        <div class="avatar">
+          <img
+            class="avatar__img"
+            src="./assets/notion-avatar-birdy.svg"
+          />
         </div>
-        <pre>
+        <div class="credentials">
+          <div class="wrapper">
+            <h1 class="name">Mick Rubashkin</h1>
+            <h2 class="role">Fronted Developer</h2>
+          </div>
+          <section class="summary">
+            <h3 class="title">Summary</h3>
+            <p class="description">
+              Mick has a great communication skills, combined with
+              problem-solving and grit mindset. He is an evergreen learner,
+              eager to proficiency in frontend development.
+            </p>
+          </section>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="contacts">
+          <h2>Contact Details</h2>
+          <ul>
+            <li>
+              E-mail:
+              <a href="mailto:mikhail.rubashkin@gmail.com"
+                >mikhail.rubashkin@gmail.com</a
+              >
+            </li>
+            <li>Discord, telegram: @mick_rubashkin</li>
+            <li><a href="https://github.com/mickrubashkin">GitHub</a></li>
+          </ul>
+        </section>
+
+        <section class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML5, CSS3</li>
+            <li>JavaScript</li>
+            <li>React, Vue</li>
+            <li>Node.js</li>
+          </ul>
+        </section>
+        <section class="code-examples">
+          <h2>Code Examples</h2>
+          <div class="description">
+            <p>
+              ROT13 is a simple letter substitution cipher that replaces a
+              letter with the letter 13 letters after it in the alphabet. ROT13
+              is an example of the Caesar cipher.
+            </p>
+            <p>
+              Create a function that takes a string and returns the string
+              ciphered with Rot13. If there are numbers or special characters
+              included in the string, they should be returned as they are. Only
+              letters from the latin/english alphabet should be shifted, like in
+              the original Rot13 "implementation".
+            </p>
+          </div>
+          <pre>
           <code>
 const alpha = 'abcdefghijklmnopqrstuvwxyz'
 const ALPHA = alpha.toUpperCase()
@@ -104,100 +111,103 @@ function rot13(message) {
 }
           </code>
         </pre>
-      </section>
+        </section>
 
-      <section class="work-experience">
-        <h2>Work Experience</h2>
-        <ul>
-          <li>
-            <p>
-              Vue Map (<a
-                href="https://melodious-boba-c1b546.netlify.app/"
-                target="_blank"
-                >Live demo</a
-              >,
+        <section class="work-experience">
+          <h2>Work Experience</h2>
+          <ul>
+            <li>
+              <p>
+                Vue Map (<a
+                  href="https://melodious-boba-c1b546.netlify.app/"
+                  target="_blank"
+                  >Live demo</a
+                >,
+                <a
+                  href="https://github.com/mickrubashkin/vue-map"
+                  target="_blank"
+                  >GitHub</a
+                >). Online map playground, built with Vue 3 & OpenLayers.
+              </p>
+            </li>
+            <li>
+              <p>
+                Vue Note app (<a
+                  href="https://dashing-chimera-bebf95.netlify.app/#/"
+                  target="_blank"
+                  >Live demo</a
+                >,
+                <a
+                  href="https://github.com/mickrubashkin/vue-noteapp"
+                  target="_blank"
+                  >GitHub</a
+                >). Notetaking app, built with Vue 3.
+              </p>
+            </li>
+            <li>
+              <p>
+                Gendiff (<a
+                  href="https://github.com/mickrubashkin/frontend-project-lvl2"
+                  target="_blank"
+                  >GitHub</a
+                >). CLI tool to compare json or yaml files, print diff to the
+                console in different formats.
+              </p>
+            </li>
+            <li>
+              <p>
+                Brain Games (<a
+                  href="https://github.com/mickrubashkin/frontend-project-lvl1"
+                  target="_blank"
+                  >GitHub</a
+                >). CLI games collection.
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
               <a
-                href="https://github.com/mickrubashkin/vue-map"
+                href="https://www.youtube.com/playlist?list=PLvTBThJr861yMBhpKafII3HZLAYujuNWw"
                 target="_blank"
-                >GitHub</a
-              >). Online map playground, built with Vue 3 & OpenLayers.
-            </p>
-          </li>
-          <li>
-            <p>
-              Vue Note app (<a
-                href="https://dashing-chimera-bebf95.netlify.app/#/"
-                target="_blank"
-                >Live demo</a
-              >,
+                >JavaScript.Ninja</a
+              >, Vue.js course
+            </li>
+            <li>
               <a
-                href="https://github.com/mickrubashkin/vue-noteapp"
+                href="https://hexlet.io/programs/frontend"
                 target="_blank"
-                >GitHub</a
-              >). Notetaking app, built with Vue 3.
-            </p>
-          </li>
-          <li>
-            <p>
-              Gendiff (<a
-                href="https://github.com/mickrubashkin/frontend-project-lvl2"
+                >Hexlet.io</a
+              >, Frontend Developer
+            </li>
+            <li>
+              <a
+                href="https://github.com/mickrubashkin/hexlet-sicp-racket"
                 target="_blank"
-                >GitHub</a
-              >). CLI tool to compare json or yaml files, print diff to the
-              console in different formats.
-            </p>
-          </li>
-          <li>
-            <p>
-              Brain Games (<a
-                href="https://github.com/mickrubashkin/frontend-project-lvl1"
+                >SICP</a
+              >, self-paced practice on SICP book
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA"
                 target="_blank"
-                >GitHub</a
-              >). CLI games collection.
-            </p>
-          </li>
-        </ul>
-      </section>
+                >CS50</a
+              >, Harvard University's introduction to the intellectual
+              enterprises of computer science and the art of programming
+            </li>
+          </ul>
+        </section>
 
-      <section class="education">
-        <h2>Education</h2>
-        <ul>
-          <li>
-            <a
-              href="https://www.youtube.com/playlist?list=PLvTBThJr861yMBhpKafII3HZLAYujuNWw"
-              target="_blank"
-              >JavaScript.Ninja</a
-            >, Vue.js course
-          </li>
-          <li>
-            <a
-              href="https://hexlet.io/programs/frontend"
-              target="_blank"
-              >Hexlet.io</a
-            >, Frontend Developer
-          </li>
-          <li>
-            <a
-              href="https://github.com/mickrubashkin/hexlet-sicp-racket"
-              target="_blank"
-              >SICP</a
-            >, self-paced practice on SICP book
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA"
-              target="_blank"
-              >CS50</a
-            >, Harvard University's introduction to the intellectual enterprises
-            of computer science and the art of programming
-          </li>
-        </ul>
-      </section>
+        <section class="language">
+          <h2>English Language</h2>
+          <p>C1 Advanced</p>
+        </section>
+      </main>
 
-      <section class="language">
-        <h2>English Language</h2>
-        <p>C1 Advanced</p>
-      </section>
-    </main>
+      <footer class="footer"></footer>
+    </div>
   </body>
 </html>
